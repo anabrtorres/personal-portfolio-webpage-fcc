@@ -1,0 +1,6 @@
+@keyframes fading {
+    to {
+      opacity: 1;
+      color: var(--color-blue);
+    }
+  }

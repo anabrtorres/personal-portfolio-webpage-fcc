@@ -1,0 +1,27 @@
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-white);
+}
+
+#navbar a {
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+#navbar a:hover {
+  color: var(--color-blue);
+}
+
+#navbar ul {
+  max-width: 300px;
+  margin: 15px 40px 15px auto;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  order: 3;
+}

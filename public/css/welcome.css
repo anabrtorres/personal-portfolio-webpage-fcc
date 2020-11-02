@@ -1,0 +1,18 @@
+#welcome-section {
+  height: 60vh;
+  padding-top: 40vh;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+}
+
+#welcome-section p {
+  padding-bottom: 100px;
+  font-style: italic;
+  font-size: 2rem;
+  opacity: (60%);
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: source code pro, sans-serif;
+}

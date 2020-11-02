@@ -1,0 +1,44 @@
+/*---- navbar ----*/
+@media (max-width: 768px) {
+  #navbar ul {
+    margin: 15px auto;
+  }
+}
+
+/*---- welcome ----*/
+@media (max-height: 500px) {
+  #welcome-section {
+    padding-bottom: 50px;
+  }
+}
+
+/*---- projects ----*/
+@media (max-width: 768px) {
+  #project-itens {
+    flex-direction: column;
+  }
+  .project-tile {
+    margin: 0 auto 20px;
+  }
+  #project-itens img {
+    max-width: 300px;
+  }
+}
+
+/*---- profile ----*/
+@media (max-width: 768px) {
+  #profile-link {
+    max-width: 80%;
+    flex-direction: column;
+  }
+  #contact-info {
+    padding: 65px 10px 30px 10px;
+  }
+  #profile-img {
+    width: 150px;
+    margin-left: -75px;
+  }
+  .my-profile {
+    margin: 10px;
+  }
+}
